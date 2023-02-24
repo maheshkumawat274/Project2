@@ -1,0 +1,154 @@
+@media screen and (max-width: 700px) {
+    body{
+        background-color: bisque;
+        
+    }
+}
+body{
+    margin: 0px;
+}
+
+#main{
+    background-color:  #45567d;
+    height: 350%;
+    width: 100%;
+    text-align: center;
+}
+#firstsection{
+    background-color: rgba(144, 7, 7, 1);
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    
+}
+#right{
+    float: right;
+    height: 100%;
+    width: 30%;
+}
+.f1{
+    
+    height: 100%;
+    width: 33%;
+    float: left;
+    
+    text-align: center;
+}
+.f2{
+    
+    height: 100%;
+    width: 33%;
+    float: left;
+    
+    text-align: center;
+}
+.f3{
+    
+    height: 100%;
+    width: 33%;
+    float: left;
+    
+    text-align: center;
+}
+#secondsection{
+    background-color: black;
+    height: 30%;
+    width: 100%;
+    text-align: center;
+}
+#thirdsection{
+    background-color: #45567d;
+    height: 55%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    
+}
+
+.first{
+    background-color: #303841;
+    height: 32%;
+    width: 27%;
+    float: left;
+    margin-left: 6%;
+    margin-top: 7%;
+    
+}
+.second{
+    background-color: #303841;
+    height: 32%;
+    width: 27%;
+    float: left;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+.third{
+    background-color: #303841;
+    height: 32%;
+    width: 27%;
+    float: left;
+    margin-top: 7%;
+    margin-left: 4%;
+}
+.fourth{
+    background-color: #303841;
+    height: 32%;
+    width: 27%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 6%;
+}
+.fifth{
+    background-color: #303841;
+    height: 32%;
+    width: 27%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+.sixth{
+    background-color: #303841;
+    height: 32%;
+    width: 27%;
+    float: left;
+    margin-top: 5%;
+    margin-left: 4%;
+}
+
+
+#fourthsection{
+    background-color: black;
+    height: 28%;
+    width: 100%;
+    text-align: center;
+}
+#fifthsection{
+    background-color: black;
+    height: 17%;
+    width: 100%;
+    position: relative;
+    top: 47%;
+    border-top: 3px solid red;
+}
+button{
+    background-color: red; color: white; height: 10%; width: 15%; font-size: 20px; position: relative;top: 30%;
+   
+}
+button:hover{
+    background-color: black;
+    display: inline-block;
+    border-radius: 2px;
+}
+.f1:hover{
+         background-color: #45567d;
+}
+.f2:hover{
+         background-color: #45567d;
+}
+.f3:hover{
+         background-color: #45567d;
+}
