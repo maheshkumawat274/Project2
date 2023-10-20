@@ -1,0 +1,290 @@
+.main{
+    height: 800vh;
+    width: 200vh;
+    background-color: rgb(150, 147, 147);
+    overflow: hidden;
+}
+.uper{
+    height: 90vh;
+    width: 190vh;
+    border: 1px solid black;
+    margin: 5vh;
+}
+.slider{
+    height: 50vh;
+    width: 180vh;
+    background-color: rgb(104, 94, 94);
+    position: relative;
+    top: 5vh;
+    left: 5vh;
+
+}
+.sliderimg1{
+    height: 25vh;
+    width: 50vh;
+    background-image: url(imgs/mah.jpg);
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 2vh;
+    position: relative;
+    top: 7vh;
+    left: 11vh;
+}
+.sliderimg2{
+    height: 25vh;
+    width: 50vh;
+    background-image: url(imgs/mah1.jpg);
+    background-size: 100% 100%;
+    float: left;
+    margin-left: 2vh;
+    position: relative;
+    top: 7vh;
+    left: 11vh;
+}
+.sliderimg3{
+    height: 25vh;
+    width: 50vh;
+    background-image: url(imgs/mah2.jpg);
+    background-size: 100% 100%;
+    margin-left: 2vh;
+    float: left;
+    position: relative;
+    top:7vh;
+    left: 11vh;
+}
+.btn{
+    position: relative;
+    top: 14vh;
+    left: 40vh;
+    height: 5vh;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100vh;
+    border-radius: 10px;
+    border: 1px solid;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: greenyellow;
+    box-shadow: 5px 5px 10px black;
+}
+.text{
+    height: 30vh;
+    width: 180vh;
+    background-color: white;
+    position: relative;
+    top: 7.5vh;
+    left: 5vh;
+}
+.text2{
+    height: 30vh;
+    width: 190vh;
+}
+.text3{
+    height: 55vh;
+    width: 180vh;
+    background-color: white;
+    position: relative;
+    left: 5vh;
+}
+.text4{
+    height: 20vh;
+    width: 180vh;
+    position: relative;
+    left: 5vh;
+    background-color: white;
+}
+hr.new{
+    border: 1px solid black;
+    width: 180vh;
+    box-shadow: 0 10px 15px rgb(17, 250, 17);
+}
+.text5{
+    height: 30vh;
+    width: 180vh;
+    position: relative;
+    left: 6vh;
+    background-color: black;
+}
+.textinside{
+    height: 80%;
+    width: 95%;
+    border: 2px solid palevioletred;
+    border-radius: 10px;
+    position: relative;
+    left: 2.5%;
+    top: 10%;
+}
+.confirmbtn{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 35%;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+.cancelbtn{
+    height: 50px;
+    width: 200px;
+    background-color: pink;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    left: 37%;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.confirmbtn:hover{
+    box-shadow: 0 0 10px white;
+}
+.cancelbtn:hover{
+    box-shadow: 0 0 10px white;
+}
+hr.new1{
+    position: relative;
+    top: 20%;
+    border: 2px solid black;
+}
+.img1{
+    height: 20vh;
+    width: 40vh;
+    background-image: url(imgs/mah.jpg);
+    float: left;
+    position: relative;
+    top: 10vh;
+    left: 14vh;
+}
+.img2{
+    height: 20vh;
+    width: 40vh;
+    background-image: url(imgs/mah1.jpg);
+    float: left;
+    position: relative;
+    top: 10vh;
+    left: 14vh;
+}
+.img3{
+    height: 20vh;
+    width: 40vh;
+    background-image: url(imgs/mah2.jpg);
+    float: left;
+    position: relative;
+    top: 10vh;
+    left: 14vh;
+}
+.img4{
+    height: 20vh;
+    width: 40vh;
+    background-image: url(imgs/mah.jpg);
+    float: left;
+    position: relative;
+    top: 10vh;
+    left: 14vh;
+}
+.text6{
+    height: 30vh;
+    width: 180vh;
+    position: relative;
+    left: 6vh;
+    position: relative;
+    top: 40vh;
+}
+hr.new2{
+    width: 38%;
+    border: 2px solid black;
+    position: relative;
+    right: 27.5%;
+}
+table{
+    height: 50%;
+    width: 70%;
+    position: relative;
+    left: 15%;
+    top: 12%;
+    border-collapse: collapse;
+    background-color: black;
+    color: white;
+}
+td,th{
+    border: 1px solid white;
+    text-align: center;
+}
+td{
+    height: 30px;
+}
+tr:nth-child(even){
+    background-color: rgb(104, 104, 105);
+}
+.tablecontent{
+    height:60vh;
+    width:180vh;
+    background-color: black;
+    position: relative;
+    left: 5vh;
+}
+.inside{
+    height: 80%;
+    width: 100%;
+    background-color: skyblue;
+    position: relative;
+    top: 10%;
+}
+.contact{
+    height: 70vh;
+    width: 150vh;
+    position: relative;
+    left: 20vh;
+    background-image: url(imgs/banner.jpeg);
+    background-size: 100% 100%;
+    box-shadow: 0 0 10px;
+
+}
+.details{
+    height: 70%;
+    width: 70%;
+    background-image: url(imgs/b4.jpg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 15%;
+    left: 15%;
+    opacity: .8;
+    border: 10px solid;
+}
+input{
+    width: 450px;
+    height: 30px;
+    border-bottom: 3px solid rgb(255, 0, 85);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 25px;
+    opacity: .5;
+}
+input:hover{
+    opacity: .8;
+}
+form{
+    position: relative;
+    left: 20%;
+}
+button{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    font-size: 25px;
+    position: relative;
+    left: 20%;
+    border: none;
+    cursor: pointer;
+    opacity: .5;
+}
+button:hover{
+    opacity: .8;
+}
